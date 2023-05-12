@@ -40,7 +40,7 @@ class CMakeBuild(build_ext):
 # logic and declaration, and simpler if you include description/version in a file.
 setup(
     name="pypatchworkpp",
-    version="0.0.1",
+    version="0.0.2",
     author="Oliver Batchelor",
     author_email="oliver.batchelor@canterbury.ac.nz",
     description="Python binding for patchwork++",

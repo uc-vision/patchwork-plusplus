@@ -2,7 +2,7 @@ project(patchworkpp_src)
 
 include(GNUInstallDirs)
 
-add_library(patchworkpp SHARED src/patchworkpp.cpp)
+add_library(patchworkpp STATIC src/patchworkpp.cpp)
 target_include_directories(patchworkpp PUBLIC
   $<BUILD_INTERFACE:${CMAKE_CURRENT_BINARY_DIR}/include>
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
